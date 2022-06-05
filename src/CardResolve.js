@@ -29,6 +29,12 @@ function CardResolve() {
       });
   };
   return (
+      <div>
+          <h1>Card resolve app</h1>
+      <h5>
+        Zero error handling for now. If you don't get a result in 10 sec, please
+        check your inputs
+      </h5>
     <div className="main">
       <div className="inputs">
         <form action="">
@@ -51,6 +57,7 @@ function CardResolve() {
           <FontAwesomeIcon icon={faCopy} />
         </CopyToClipboard>
       </div>
+    </div>
     </div>
   );
 }
